@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="finalReport" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5bd9e123-48fd-4cc7-8135-b11285fad110">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="98"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT facture.idFacture, client.nomClient, SUM( commander.prixVenteCommande * commander.quantiteCommande ) AS Montant, facture.dateFacture, (
+coalesce( (
+
+SELECT SUM( depense.montant )
+FROM depense ) , 0
+)
+) AS montantDepense
+FROM facture
+INNER JOIN client ON facture.idClient = client.idClient
+INNER JOIN commander ON commander.idClient = client.idClient
+INNER JOIN produit ON produit.idProduit = commander.idProduit]]>
+	</queryString>
+	<field name="idFacture" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nomClient" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Montant" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dateFacture" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="montantDepense" class="java.math.BigDecimal"/>
+	<variable name="difference" class="java.lang.Double">
+		<variableExpression><![CDATA[new java.lang.Double( $F{Montant}.doubleValue() - $F{montantDepense}.doubleValue() )]]></variableExpression>
+	</variable>
+	<group name="idFacture">
+		<groupExpression><![CDATA[$F{idFacture}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="106" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="76" width="118" height="20" uuid="e50eb016-8c57-4b36-9d02-4807a319203f"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ville de KINSHASA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="56" width="118" height="20" uuid="561dcf01-6e5d-4e3f-9f7e-7bb4b903cd67"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<text><![CDATA[Commune de Masina]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="36" width="118" height="20" uuid="52742b1f-e312-40d5-91b1-d346967eda2a"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<text><![CDATA[Quartier 2 Pascal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="377" y="-19" width="161" height="44" backcolor="#CCFFFF" uuid="a2111dd5-76e4-48c8-adc0-9e3bc2104f2a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font fontName="Segoe UI Semibold" size="18" isBold="false" isUnderline="false" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Rapport final]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="5" width="169" height="31" uuid="2246575a-c282-4fd2-96a3-6c777ffd8168"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="16"/>
+				</textElement>
+				<text><![CDATA[Chambre froide RIDAYA]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="25" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="10" y="0" width="49" height="20" backcolor="#CCFFFF" uuid="9529b64c-c735-4e84-bc8d-f148ff81405e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="208" y="0" width="145" height="20" backcolor="#CCFFFF" uuid="cfcbc054-dda9-41ea-8adb-97c1649f8c90"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dépense total en Fc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="59" y="0" width="149" height="20" backcolor="#CCFFFF" uuid="104407e4-3e4b-4adf-91d1-34a8754866ec"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Vente total en FC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="353" y="0" width="121" height="20" backcolor="#CCFFFF" uuid="473f688f-bb6d-424d-81ca-8ca8d2ebd690"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reste en Fc]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="59" y="0" width="149" height="20" uuid="d1832546-86d6-4088-aaa6-30356872196c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Montant}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="208" y="0" width="145" height="20" uuid="7dceb653-5581-4b2a-b53f-98be1cabc202"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{montantDepense}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="353" y="0" width="121" height="20" uuid="2cb9841b-4bcd-4704-8b34-cfa3aed3a8ca"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{difference}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

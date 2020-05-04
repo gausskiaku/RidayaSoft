@@ -1,0 +1,519 @@
+---------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Thu Oct 06 15:01:01 CEST 2016
+
+L'utilisateur Gauss s'est deconnecté à 2016-10-06
+
+---------------------------------------------------------------------------------
+
+L'utilisateur Gauss s'est connecté. Date et heure : Thu Oct 06 15:07:29 CEST 2016
+L'utilisateur Gauss s'est deconnecté à 2016-10-06
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Thu Oct 06 15:58:01 CEST 2016
+L'utilisateur mabex s'est connecté. Date et heure : Thu Oct 06 15:58:49 CEST 2016
+L'utilisateur Gauss s'est connecté. Date et heure : Thu Oct 06 16:19:45 CEST 2016
+L'utilisateur Gauss s'est connecté. Date et heure : Thu Oct 06 16:21:13 CEST 2016
+Click bouton vente
+Enregistrement de la vente du client Emma à Thu Oct 06 16:22:10 CEST 2016
+Click bouton caisse
+Click bouton stock
+Impression de la cloture journaliere  à Thu Oct 06 16:22:45 CEST 2016
+Click bouton stock
+Click bouton stock
+Click bouton depense
+L'utilisateur Gauss s'est deconnecté à 2016-10-06
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Thu Oct 06 16:29:23 CEST 2016
+Click bouton comptabilité
+L'utilisateur mabex s'est deconnecté à 2016-10-06
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Thu Oct 06 16:30:34 CEST 2016
+Click bouton stock
+Click bouton comptabilité
+Click bouton depense
+Une depense de 500 à Thu Oct 06 16:30:54 CEST 2016
+Click bouton comptabilité
+Ajout dans le stock du produit Poulet Nu, quantité : 55 à Thu Oct 06 16:31:41 CEST 2016
+Ajout dans le stock du produit Mpiodi 12p, quantité : 50 à Thu Oct 06 16:32:01 CEST 2016
+Ajout dans le stock du produit Nzombo 10 Kg, quantité : 100 à Thu Oct 06 16:32:17 CEST 2016
+Click bouton vente
+Enregistrement de la vente du client Mbx à Thu Oct 06 16:34:12 CEST 2016
+Click bouton caisse
+Click bouton stock
+Suppression de l'article Mpiodi 12p du client Emma de la facture 36 à Thu Oct 06 16:34:30 CEST 2016
+Modification du produit Mpiodi 12p le prix est maintenant à 1000 à partir du Thu Oct 06 16:34:51 CEST 2016
+Click bouton depense
+Une depense de 100 à Thu Oct 06 16:36:33 CEST 2016
+L'utilisateur mabex s'est deconnecté à 2016-10-06
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Thu Oct 06 16:57:58 CEST 2016
+Click bouton comptabilité
+Click bouton stock
+L'utilisateur Gauss s'est deconnecté à 2016-10-06
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Fri Oct 07 16:07:09 CEST 2016
+Click bouton caisse
+L'utilisateur Gauss s'est deconnecté à Fri Oct 07 16:07:43 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Fri Oct 07 16:09:25 CEST 2016
+L'utilisateur Gauss s'est connecté. Date et heure : Fri Oct 07 16:11:32 CEST 2016
+Click bouton vente
+Click bouton caisse
+L'utilisateur Gauss s'est connecté. Date et heure : Fri Oct 07 16:12:27 CEST 2016
+Click bouton vente
+Click bouton stock
+Click bouton comptabilité
+Click bouton vente
+L'utilisateur Gauss s'est deconnecté à Fri Oct 07 16:19:45 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Joseph s'est connecté. Date et heure : Fri Oct 07 16:21:16 CEST 2016
+Click bouton vente
+Click bouton depense
+Click bouton comptabilité
+Click bouton stock
+Click bouton stock
+Click bouton comptabilité
+Click bouton vente
+Click bouton stock
+Click bouton comptabilité
+Click bouton stock
+Click bouton comptabilité
+Click bouton depense
+Click bouton stock
+Click bouton comptabilité
+Modification TVA à Fri Oct 07 16:39:16 CEST 2016
+Modification TVA à Fri Oct 07 16:39:30 CEST 2016
+Modification du gain à Fri Oct 07 16:40:27 CEST 2016
+Click bouton stock
+Click bouton comptabilité
+Click bouton administrateur
+L'utilisateur Joseph s'est deconnecté à Fri Oct 07 16:42:28 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Sun Oct 09 15:22:44 CEST 2016
+Click bouton vente
+Click bouton stock
+Click bouton comptabilité
+Click bouton stock
+Click bouton stock
+Click bouton comptabilité
+Click bouton depense
+L'utilisateur mabex s'est deconnecté à Sun Oct 09 15:40:08 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Sun Oct 09 15:42:06 CEST 2016
+Click bouton vente
+Click bouton gestion
+Click bouton stock
+Click bouton comptabilité
+Click bouton gestion
+Click sur le bouton ajout famille
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout produit
+Click sur le bouton ajout famille
+Click sur le bouton ajout produit
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Modification TVA à Sun Oct 09 16:02:42 CEST 2016
+Modification TVA à Sun Oct 09 16:02:49 CEST 2016
+L'utilisateur Gauss s'est deconnecté à Sun Oct 09 16:03:10 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Sun Oct 09 16:03:45 CEST 2016
+Click bouton vente
+Click bouton gestion
+Click sur le bouton ajout famille
+Click sur le bouton ajout produit
+Click sur le bouton ajout famille
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout type vente
+L'utilisateur Gauss s'est deconnecté à Sun Oct 09 16:04:29 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Sun Oct 09 16:06:27 CEST 2016
+Click bouton gestion
+Click sur le bouton ajout famille
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton ajout famille
+Ajout de la famille Lolo à Sun Oct 09 16:12:36 CEST 2016
+L'utilisateur Gauss s'est deconnecté à Sun Oct 09 16:13:54 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Sun Oct 09 16:14:33 CEST 2016
+Click bouton vente
+Click bouton gestion
+Click sur le bouton ajout famille
+Ajout de la famille Tee à Sun Oct 09 16:14:45 CEST 2016
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton ajout famille
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout type vente
+Click sur le bouton ajout stock
+Click sur le bouton ajout produit
+Click sur le bouton ajout famille
+Click sur le bouton ajout stock
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout stock
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout produit
+Click sur le bouton ajout produit
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout type vente
+L'utilisateur Gauss s'est deconnecté à Sun Oct 09 16:43:45 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Sun Oct 09 16:44:58 CEST 2016
+Click bouton gestion
+Click bouton stock
+L'utilisateur mabex s'est deconnecté à Sun Oct 09 16:46:47 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Sun Oct 09 16:52:18 CEST 2016
+Click bouton stock
+Impression de la liste de produit  à Sun Oct 09 16:54:07 CEST 2016
+Click bouton comptabilité
+L'utilisateur mabex s'est connecté. Date et heure : Sun Oct 09 17:10:28 CEST 2016
+Click bouton comptabilité
+L'utilisateur mabex s'est deconnecté à Sun Oct 09 17:10:45 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 08:47:09 CEST 2016
+Click bouton vente
+Enregistrement de la vente du client Mbx à Mon Oct 10 08:47:33 CEST 2016
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 08:48:28 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 09:32:07 CEST 2016
+Click bouton vente
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 09:33:42 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 09:34:12 CEST 2016
+Click bouton vente
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 09:35:03 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 09:36:35 CEST 2016
+Click bouton vente
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 09:37:02 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 09:37:29 CEST 2016
+Click bouton vente
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 09:39:20 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 09:39:43 CEST 2016
+Click bouton vente
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 09:40:07 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 09:40:53 CEST 2016
+Click bouton vente
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 09:45:59 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 09:46:20 CEST 2016
+Click bouton vente
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 09:47:10 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 09:48:39 CEST 2016
+Click bouton vente
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 09:49:03 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 09:49:56 CEST 2016
+Click bouton vente
+Click bouton gestion
+Click sur le bouton ajout famille
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout type vente
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 09:50:19 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 10:04:26 CEST 2016
+Click bouton vente
+Click bouton gestion
+Click bouton stock
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 10:56:31 CEST 2016
+Click bouton administrateur
+Creation de l'utilisateur Sevine à Mon Oct 10 10:56:53 CEST 2016
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 10:56:55 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Sevine s'est connecté. Date et heure : Mon Oct 10 10:57:17 CEST 2016
+L'utilisateur Sevine s'est deconnecté à Mon Oct 10 10:57:33 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 11:51:00 CEST 2016
+Click bouton administrateur
+Click sur gestion User !
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 11:58:51 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Sevine s'est connecté. Date et heure : Mon Oct 10 11:59:24 CEST 2016
+L'utilisateur Sevine s'est connecté. Date et heure : Mon Oct 10 11:59:29 CEST 2016
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 12:08:58 CEST 2016
+Click bouton vente
+Click bouton gestion
+Click bouton stock
+Click bouton comptabilité
+Click bouton stock
+Click bouton comptabilité
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 12:09:30 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 14:17:51 CEST 2016
+Click bouton vente
+Click bouton vente
+Click bouton gestion
+Click bouton stock
+Click bouton comptabilité
+Click bouton administrateur
+Click sur création User !
+Click sur gestion User !
+Click sur création User !
+Click sur gestion User !
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 14:19:07 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 16:21:46 CEST 2016
+Click bouton administrateur
+Click sur gestion User !
+Click sur gestion User !
+Click sur gestion User !
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 16:23:14 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 16:24:25 CEST 2016
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 16:24:32 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 16:24:46 CEST 2016
+Click bouton administrateur
+Click sur gestion User !
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 16:27:47 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 16:29:25 CEST 2016
+Click bouton comptabilité
+Click bouton stock
+Click bouton gestion
+Click bouton vente
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 16:29:36 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur mabex s'est connecté. Date et heure : Mon Oct 10 16:29:51 CEST 2016
+Click bouton administrateur
+Click bouton administrateur
+Click bouton administrateur
+Click sur gestion User !
+Click sur gestion User !
+Click sur gestion User !
+L'utilisateur mabex s'est deconnecté à Mon Oct 10 16:35:49 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 16:46:27 CEST 2016
+Click bouton comptabilité
+Click bouton stock
+L'utilisateur Gauss s'est connecté. Date et heure : Mon Oct 10 17:08:24 CEST 2016
+Click bouton gestion
+Click bouton stock
+Click bouton comptabilité
+Click bouton stock
+Click bouton comptabilité
+Click bouton dépense !
+Click bouton vente
+Click bouton gestion
+Click bouton stock
+L'utilisateur Gauss s'est deconnecté à Mon Oct 10 17:09:12 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Tue Oct 11 09:17:07 CEST 2016
+Click bouton gestion
+Click bouton stock
+Click bouton comptabilité
+L'utilisateur Gauss s'est deconnecté à Tue Oct 11 09:18:44 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 09:19:02 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+Une depense de 1000 à Tue Oct 11 09:19:28 CEST 2016
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 09:20:34 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Tue Oct 11 09:53:44 CEST 2016
+Click bouton stock
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Gauss s'est deconnecté à Tue Oct 11 09:54:02 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Tue Oct 11 09:57:50 CEST 2016
+Click bouton stock
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Gauss s'est deconnecté à Tue Oct 11 09:58:14 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 10:11:35 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 10:11:58 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 10:20:41 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 10:21:34 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 11:17:22 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 11:17:40 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Tue Oct 11 11:18:35 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Gauss s'est deconnecté à Tue Oct 11 11:20:58 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 11:27:49 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 11:28:12 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 11:29:27 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 11:31:30 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 11:36:47 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 11:37:08 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 11:38:57 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 11:39:56 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Tue Oct 11 11:41:08 CEST 2016
+Click bouton comptabilité
+Click bouton dépense !
+L'utilisateur Gauss s'est deconnecté à Tue Oct 11 11:41:19 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 12:01:28 CEST 2016
+Click bouton comptabilité
+Impression finance du 2016-10-11 à Tue Oct 11 12:01:53 CEST 2016
+L'utilisateur Gauss s'est connecté. Date et heure : Tue Oct 11 12:03:10 CEST 2016
+Click bouton comptabilité
+Impression finance du 2016-10-11 à Tue Oct 11 12:03:17 CEST 2016
+Impression finance du 2016-10-11 à Tue Oct 11 12:03:27 CEST 2016
+L'utilisateur Gauss s'est deconnecté à Tue Oct 11 12:03:47 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 13:44:29 CEST 2016
+Click bouton vente
+Enregistrement de la vente du client Mabex à Tue Oct 11 13:44:57 CEST 2016
+Enregistrement de la vente du client Godelk à Tue Oct 11 13:45:50 CEST 2016
+Enregistrement de la vente du client Lol à Tue Oct 11 13:46:21 CEST 2016
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 13:46:34 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 13:50:31 CEST 2016
+Click bouton vente
+Enregistrement de la vente du client Gauthier à Tue Oct 11 13:50:50 CEST 2016
+Enregistrement de la vente du client Master à Tue Oct 11 13:51:09 CEST 2016
+Click bouton gestion
+Click sur le bouton ajout famille
+Click bouton vente
+Enregistrement de la vente du client Loooooool à Tue Oct 11 13:55:23 CEST 2016
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 13:55:38 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 13:57:35 CEST 2016
+Click bouton vente
+Enregistrement de la vente du client Bibiche à Tue Oct 11 13:58:17 CEST 2016
+Enregistrement de la vente du client Emma à Tue Oct 11 13:58:47 CEST 2016
+Click bouton gestion
+Click sur le bouton ajout famille
+Ajout de la famille Lol à Tue Oct 11 13:59:42 CEST 2016
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout famille
+Click bouton stock
+Recherche etat stock du 2016-10-10 à Tue Oct 11 14:10:32 CEST 2016
+Recherche etat stock du 2016-10-10 à Tue Oct 11 14:10:38 CEST 2016
+Recherche etat stock du 2016-10-10 à Tue Oct 11 14:10:38 CEST 2016
+Recherche etat stock du 2016-10-10 à Tue Oct 11 14:10:39 CEST 2016
+Recherche etat stock du 2016-10-10 à Tue Oct 11 14:10:39 CEST 2016
+Recherche etat stock du 2016-10-10 à Tue Oct 11 14:10:39 CEST 2016
+Recherche etat stock du 2016-10-09 à Tue Oct 11 14:10:46 CEST 2016
+Recherche etat stock du 2016-10-09 à Tue Oct 11 14:10:47 CEST 2016
+Recherche etat stock du 2016-10-09 à Tue Oct 11 14:10:47 CEST 2016
+Recherche etat stock du 2016-10-11 à Tue Oct 11 14:10:52 CEST 2016
+Recherche etat stock du 2016-10-12 à Tue Oct 11 14:10:59 CEST 2016
+Recherche etat stock du 2016-10-11 à Tue Oct 11 14:11:18 CEST 2016
+Recherche etat stock du 2016-10-10 à Tue Oct 11 14:38:24 CEST 2016
+Recherche etat stock du 2016-10-11 à Tue Oct 11 14:38:33 CEST 2016
+Recherche etat stock du 2016-10-12 à Tue Oct 11 14:38:38 CEST 2016
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 14:38:41 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 14:38:57 CEST 2016
+Click bouton comptabilité
+Click bouton comptabilité
+Click bouton stock
+Recherche etat stock du 2016-10-11 à Tue Oct 11 14:39:19 CEST 2016
+Recherche etat stock du 2016-10-12 à Tue Oct 11 14:39:25 CEST 2016
+Recherche etat stock du 2016-10-11 à Tue Oct 11 14:39:35 CEST 2016
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 14:39:43 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 14:49:05 CEST 2016
+Click bouton vente
+Click bouton gestion
+Click bouton comptabilité
+Click bouton stock
+Click bouton administrateur
+Click bouton vente
+Click bouton gestion
+Click bouton stock
+Click bouton administrateur
+Click sur création User !
+Click sur gestion User !
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 14:57:43 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 15:13:49 CEST 2016
+Click bouton comptabilité
+Click bouton stock
+Click bouton gestion
+Click sur le bouton ajout famille
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 15:14:13 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 15:15:27 CEST 2016
+Click bouton comptabilité
+Click bouton stock
+Click bouton gestion
+Click sur le bouton ajout famille
+Modification de la famille Poulette vient d'etre modifié... à Tue Oct 11 15:15:48 CEST 2016
+Click sur le bouton ajout produit
+Click sur le bouton ajout famille
+Modification de la famille Poulet vient d'etre modifié... à Tue Oct 11 15:16:02 CEST 2016
+Click sur le bouton ajout produit
+Click sur le bouton ajout famille
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 15:16:28 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Mabex s'est connecté. Date et heure : Tue Oct 11 15:47:03 CEST 2016
+Click bouton gestion
+Click sur le bouton ajout famille
+Click sur le bouton ajout produit
+Click sur le bouton ajout stock
+Click sur le bouton ajout type vente
+Click sur le bouton d'ajustement du TVA
+Click sur le bouton ajout famille
+Click bouton comptabilité
+Click bouton dépense !
+Suppression de l'article Mipanzi du client Lol de la facture 3 à Tue Oct 11 15:47:51 CEST 2016
+Click bouton administrateur
+Click sur gestion User !
+Click bouton comptabilité
+Click bouton stock
+Click bouton gestion
+Click bouton vente
+L'utilisateur Mabex s'est deconnecté à Tue Oct 11 15:48:51 CEST 2016
+-----------------------------------------------------------------------------------
+L'utilisateur Gauss s'est connecté. Date et heure : Tue Oct 11 15:54:06 CEST 2016

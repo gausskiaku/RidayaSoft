@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Facture" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4ee801b9-9146-4cac-a738-494d445ebc99">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="186"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#E0FFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0FFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="Crosstab Data Text" hAlign="Center"/>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0FFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<subDataset name="NouvelleQuery" uuid="48c02066-7ad1-4f20-9519-2efdf6f652cb">
+		<queryString>
+			<![CDATA[SELECT * FROM produit INNER JOIN commander ON produit.idProduit = commander.idProduit
+INNER JOIN client ON commander.idClient = client.idClient
+INNER JOIN facture ON client.idClient = facture.idClient
+INNER JOIN user ON facture.idUser = user.idUser
+]]>
+		</queryString>
+		<field name="idProduit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nomProduit" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="dateCreation" class="java.sql.Timestamp">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="prixUnitaire" class="java.lang.Double">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="seuil" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="idFamille" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="quantiteCommande" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="prixVenteCommande" class="java.lang.Double">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="dateCommande" class="java.sql.Timestamp">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="idClient" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nomClient" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="prenomClient" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="idFacture" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="dateFacture" class="java.sql.Timestamp">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="remiseFacture" class="java.lang.Double">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="idUser" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="login" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="motDePasse" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="droit" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<variable name="TotalAPayer" class="java.lang.Double">
+			<variableExpression><![CDATA[new java.lang.Double(($F{quantiteCommande}.doubleValue()) * ($F{prixUnitaire}.doubleValue()))]]></variableExpression>
+		</variable>
+		<group name="nomClient">
+			<groupExpression><![CDATA[$F{nomClient}]]></groupExpression>
+		</group>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[SELECT *
+FROM produit
+INNER JOIN commander ON produit.idProduit = commander.idProduit
+INNER JOIN client ON commander.idClient = client.idClient
+INNER JOIN facture ON client.idClient = facture.idClient
+INNER JOIN user ON facture.idUser = user.idUser]]>
+	</queryString>
+	<field name="idProduit" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nomProduit" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dateCreation" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="prixUnitaire" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="seuil" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idFamille" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="quantiteCommande" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="prixVenteCommande" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dateCommande" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idClient" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nomClient" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="prenomClient" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idFacture" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dateFacture" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="remiseFacture" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idUser" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="login" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="motDePasse" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="droit" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<variable name="TotalAPayer" class="java.lang.Double">
+		<variableExpression><![CDATA[new java.lang.Double(($F{quantiteCommande}.doubleValue()) * ($F{prixUnitaire}.doubleValue()))]]></variableExpression>
+	</variable>
+	<group name="nomClient">
+		<groupExpression><![CDATA[$F{nomClient}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="95" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="367" y="-21" width="161" height="44" backcolor="#CCFFFF" uuid="63af9656-3298-4833-8a56-e163609b7b30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font fontName="Segoe UI Semibold" size="18" isBold="false" isUnderline="false" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[FACTURE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="3" width="169" height="31" uuid="ac885780-c146-4766-9f48-ee14919dd350"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="16"/>
+				</textElement>
+				<text><![CDATA[Chambre froide RIDAYA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="34" width="118" height="20" uuid="00901391-97a1-45da-9017-017dd00f06e5"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<text><![CDATA[Quartier 2 Pascal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="54" width="118" height="20" uuid="1a303165-e052-43c2-ad51-ba4bdb06b7d8"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<text><![CDATA[Commune de Masina]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="74" width="118" height="20" uuid="770a34ba-c9be-4294-a41a-d2c58e187a60"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ville de KINSHASA]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="126" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="49" width="218" height="20" backcolor="#CCFFFF" uuid="308dcf7c-dca7-4b43-aea1-5f3c71551a16"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<text><![CDATA[Id Facture : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="69" width="218" height="20" backcolor="#CCFFFF" uuid="ce234692-4156-4243-af9e-543167638c85"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<text><![CDATA[Date : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="89" width="218" height="20" backcolor="#CCFFFF" uuid="3e854c14-3f6e-4de0-9789-9b429ee35198"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<text><![CDATA[Numero du Client :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="118" y="78" width="100" height="20" uuid="cddd8433-78dd-4450-896a-7f6da34b9618"/>
+				<textElement>
+					<font fontName="Segoe UI" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{idClient}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="367" y="11" width="188" height="28" uuid="3e9cc162-56fc-4ade-8ba6-68b997c30e0a"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomClient}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="367" y="39" width="188" height="30" uuid="561818fa-dcdc-4fb9-bb8b-3271bf9a8225"/>
+				<textElement>
+					<font fontName="Segoe UI Light" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{prenomClient}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="12" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="200" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 2" style="table 2" x="0" y="0" width="555" height="140" uuid="41c283e0-a1b1-4d56-8aa4-122124cdc8e0"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="NouvelleQuery" uuid="ae8af5c6-e3e9-4a67-a1b3-4fb07d25bd00"/>
+					<jr:column width="90" uuid="f7f09985-1346-42d7-bca0-5484b012349a">
+						<jr:tableHeader style="table 2_TH" height="11" rowSpan="1"/>
+						<jr:tableFooter style="table 2_TH" height="23" rowSpan="1"/>
+						<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="2a896ff2-6f04-412a-a9e7-70119786a44d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Quantité]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 2_CH" height="18" rowSpan="1"/>
+						<jr:detailCell style="table 2_TD" height="25" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="2208f2bf-047a-4bf7-98c8-f0a0525d3879"/>
+								<textElement textAlignment="Right" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{quantiteCommande}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="226" uuid="f89f73c1-259f-4647-a0dd-12317ef9d97d">
+						<jr:tableHeader style="table 2_TH" height="11" rowSpan="1"/>
+						<jr:tableFooter style="table 2_TH" height="23" rowSpan="1"/>
+						<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="226" height="30" uuid="fa76f34d-f0bb-433c-abb3-6bf0a61c15bc"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Désignation]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 2_CH" height="18" rowSpan="1"/>
+						<jr:detailCell style="table 2_TD" height="25" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="226" height="20" uuid="148bd370-ec6b-4825-ad30-59e2564ba4ab"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nomProduit}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="104" uuid="72c740bb-9fb0-4126-9975-565bd5690f90">
+						<jr:tableHeader style="table 2_TH" height="11" rowSpan="1"/>
+						<jr:tableFooter style="table 2_TH" height="23" rowSpan="1"/>
+						<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="104" height="30" uuid="10cf2ca5-c841-4202-872b-d104fc902857"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Prix unitaire HT]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 2_CH" height="18" rowSpan="1"/>
+						<jr:detailCell style="table 2_TD" height="25" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="104" height="20" uuid="5ebb90c1-92af-4188-8433-56876856e238"/>
+								<textElement textAlignment="Right" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{prixUnitaire}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="5f9a24e8-d8d5-46ee-b4a0-66cea1025fcc">
+						<jr:tableHeader style="table 2_TH" height="11" rowSpan="1"/>
+						<jr:tableFooter style="table 2_TH" height="23" rowSpan="1"/>
+						<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="59f22a47-876c-4014-b6cc-de8fac3c7cba"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Prix total HT]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 2_CH" height="18" rowSpan="1"/>
+						<jr:detailCell style="table 2_TD" height="25" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="e849294f-ca7a-43e7-a93e-17267e25c080"/>
+								<textElement textAlignment="Right" verticalAlignment="Middle">
+									<font fontName="Segoe UI" size="12" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$V{TotalAPayer}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

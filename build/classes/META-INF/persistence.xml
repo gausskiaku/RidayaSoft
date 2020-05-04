@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="RidayaSoftPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entite.Remettre</class>
+    <class>Entite.Produit</class>
+    <class>Entite.Typevente</class>
+    <class>Entite.Commander</class>
+    <class>Entite.Emprunter</class>
+    <class>Entite.Famille</class>
+    <class>Entite.Parametrevente</class>
+    <class>Entite.Stock</class>
+    <class>Entite.Depense</class>
+    <class>Entite.Bidon</class>
+    <class>Entite.User</class>
+    <class>Entite.Client</class>
+    <class>Entite.Facture</class>
+    <class>Entity.Stock</class>
+    <class>Entity.Typevente</class>
+    <class>Entity.User</class>
+    <class>Entity.Produit</class>
+    <class>Entity.Commander</class>
+    <class>Entity.Facture</class>
+    <class>Entity.Bidon</class>
+    <class>Entity.Depense</class>
+    <class>Entity.Client</class>
+    <class>Entity.Remettre</class>
+    <class>Entity.Emprunter</class>
+    <class>Entity.Famille</class>
+    <class>Entity.Parametrevente</class>
+    <class>Entity.Dette</class>
+    <class>Entity.Clientdette</class>
+    <class>Entity.Remboursement</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/ridayaBd?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
